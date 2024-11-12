@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.links{
+    background-color: rgb(206, 215, 215);
+    height: 5rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#home{
+    background-color: rgb(196, 200, 203);
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 3px;
+    width: 100px;
+    text-align: center;
+}
+
+#channle{
+    background-color: rgb(196, 200, 203);
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 3px;
+    width: 280px;
+    text-align: center;
+    
+}
+.heading{
+    text-align: center;
+    margin-top: 7rem;
+}
+.switcher{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#gray{
+    height: 80px;
+    width: 80px;
+    background-color: gray;
+    border: 3px solid black;
+    cursor: pointer;
+    border-radius: 50%;
+}
+#white{
+    height: 80px;
+    width:80px;
+    background-color: white;
+    border: 3px solid black;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+#blue{
+    height: 80px;
+    width: 80px;
+    background-color: blue;
+    border: 3px solid black;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+#yellow{
+    height: 80px;
+    width: 80px;
+    background-color: yellow;
+    border: 3px solid black;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+#crimson{
+    height: 80px;
+    width: 80px;
+    background-color: crimson;
+    border: 3px solid black;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+#black{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgb(250, 250, 250);
+    cursor: pointer;
+    border-radius: 50%;
+
+}
